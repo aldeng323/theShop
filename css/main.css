@@ -82,17 +82,17 @@ background-attachment
 
 .pimg1 {
     background-image: url('../img/BarbershopPhoto.jpg');
-    min-height: 100%;
+    min-height: 800px;
 }
 
 .pimg2 {
     background-image: url('../img/BarbershopPhoto2.jpg');
-    min-height: 400px;
+    min-height: 800px;
 }
 
 .pimg3 {
     background-image: url('../img/BarbershopPhoto3.jpg');
-    min-height: 400px;
+    min-height: 800px;
 }
 
 .section {
@@ -134,6 +134,7 @@ background-attachment
 @media screen and (max-width: 768px){
     body {
         overflow-x: hidden;
+        
     }
     .nav-links {
         position: absolute;
