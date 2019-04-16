@@ -8,6 +8,12 @@ body, html {
    color: #666;
 }
 
+.container {
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -131,6 +137,8 @@ background-attachment
    background-color: transparent; 
 }
 
+/* 
+
 @media screen and (max-width: 768px){
     body {
         overflow-x: hidden;
@@ -190,3 +198,5 @@ background-attachment
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
+
+*/
