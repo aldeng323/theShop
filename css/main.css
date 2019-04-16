@@ -72,7 +72,7 @@ nav {
     cursor: pointer;
 }
 
-/* 
+
 
 .pimg1, .pimg2, .pimg3 {
     position: relative;
@@ -81,30 +81,35 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
 
-//
+    /*
 background-attachment
     fixed = parallax effect
     scroll = standard scrolling effect
-
+*/
 
 
     background-attachment: fixed;
 }
 
-*/
+
 
 .pimg1 {
-    background-image: url('../img/BarbershopPhoto.jpg');
+
+    /*
+    background-image: url('../img/BarbershopPhoto.jpg'); */
     min-height: 400px;
 }
 
 .pimg2 {
-    background-image: url('../img/BarbershopPhoto2.jpg');
+
+    /*background-image: url('../img/BarbershopPhoto2.jpg'); */
     min-height: 400px;
 }
 
 .pimg3 {
-    background-image: url('../img/BarbershopPhoto3.jpg');
+
+    /*
+    background-image: url('../img/BarbershopPhoto3.jpg'); */
     min-height: 400px;
 }
 
@@ -144,11 +149,12 @@ background-attachment
    background-color: transparent; 
 }
 
-/* 
+
 
 @media screen and (max-width: 768px){
     body {
         overflow-x: hidden;
+        overflow: hidden;
         
     }
     .nav-links {
@@ -205,5 +211,3 @@ background-attachment
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
-
-*/
