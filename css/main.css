@@ -62,12 +62,14 @@ nav {
     list-style: none;
 }
 
+/* burger menu functions */
+
 .burger div {
     width: 25px;
     height: 2px;
     background-color: #fff;
     margin: 5px;
-    transition: all 0.3s ease;
+    transition: all 1.2s ease;
 }
 
 .burger {
@@ -81,7 +83,7 @@ nav {
 
 .pimg1, .pimg2, .pimg3 {
     position: relative;
-    opacity: 0.70;
+    opacity: 0.3;
     background-postion: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -150,9 +152,11 @@ background-attachment
     padding: 20px; 
 }
 
+/* 
 .ptext .border .trans {
    background-color: transparent; 
 }
+*/
 
 
 /* Footer styling */
@@ -166,6 +170,7 @@ background-attachment
     padding: 20px 10px;
     text-decoration: none;
     list-style: none;
+    color: #fffff;
 }
 
 
@@ -184,15 +189,17 @@ background-attachment
         height: 100vh;
         top: 6.1vh;
         background-color: #000;
+        color: #ffffff;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 36%;
         transform: translateX(100%);
-        transition: transform 0.5s ease-in;
+        transition: transform .8s ease-in;
+        opacity: 3;
     }
     .nav-links li {
-        opacity: 1;
+        opacity: 3;
     }
     .burger {
         display: block;
@@ -214,7 +221,7 @@ background-attachment
 
 @keyframes navLinkFade {
     from {
-        opacity: 0;
+        opacity: 1;
         transform: translateX(50px);
     }
     to {
@@ -227,7 +234,7 @@ background-attachment
     transform: rotate(-45deg) translate(-5px, 6px);
 }
 .toggle .line2 {
-    opacity: 0;
+    opacity: 3;
 }
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
